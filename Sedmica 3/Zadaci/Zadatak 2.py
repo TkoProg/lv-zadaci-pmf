@@ -6,6 +6,6 @@ def trocifren(br):
         return "Nije trocifren!"
 
 
-broj = int(input("Unesite trocifren broj, program ispisuje proizvod cifara tog broja: "))
+broj = int(input("Unesite trocifren broj, program ispisuje proizvod cifara unesenog broja: "))
 
 print(trocifren(broj))
