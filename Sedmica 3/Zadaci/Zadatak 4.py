@@ -3,16 +3,16 @@ def sljedeci(d, m, g):
     if m % 2 == 0:
         if g <= 0:
             return "Godina nije ispravna"
-        elif 1 > m > 12:
+        elif m < 1 or m > 12:
             return "Mjesec nije ispravan"
-        elif 1 > d > 31:
+        elif d < 1 or d > 31:
             return "Dan nije ispravan"
     elif m % 2 != 0:
         if g <= 0:
             return "Godina nije ispravna"
-        elif 1 > m > 12:
+        elif m < 1 or m > 12:
             return "Mjesec nije ispravan"
-        elif 1 > d > 30:
+        elif d < 1 or d > 31:
             return "Dan nije ispravan"
     if (g % 4 == 0) and (g % 100 == 0) and (g % 400 == 0):
         if d == 29 & m == 2:
@@ -63,4 +63,3 @@ god = input("Unesite dan, mesec i godinu (ex: 11.4.2024): ").split(".")
 god = [int(x) for x in god]
 
 print(sljedeci(god[0], god[1], god[2]))
-
