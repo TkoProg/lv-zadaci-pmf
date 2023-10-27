@@ -23,7 +23,7 @@ def kvadratna(poslano):
     zbir = 0
     for k in range(len(poslano)):
         zbir += poslano[k] ** 2
-    return (zbir / len(poslano)) ** (1/2)
+    return (zbir / len(poslano)) ** (1 / 2)
 
 
 n = int(input("Unesite prirodan broj n: "))
