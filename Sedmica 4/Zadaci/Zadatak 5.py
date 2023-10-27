@@ -1,4 +1,5 @@
 n = int(input("Unesite prirodan broj n: "))
+
 brojac = 0
 
 for i in range(n):
