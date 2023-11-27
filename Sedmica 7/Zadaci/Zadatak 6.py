@@ -8,7 +8,7 @@ def jelProst(n):
     return True
 
 
-def najmanjiZjednicki(m,n):
+def najmanjiZajednicki(m,n):
     najm = min(m, n)
     nzd = 0
     for i in range(1, najm+1):
@@ -23,4 +23,4 @@ def najmanjiZjednicki(m,n):
 m = int(input("Unesite prvi prirodan broj: "))
 n = int(input("Unesite drugi prirodan broj: "))
 
-print(f"Najveci prosti broj koji djeli brojeve {m} i {n} je: {najmanjiZjednicki(m,n)}")
+print(f"Najveci prosti broj koji djeli brojeve {m} i {n} je: {najmanjiZajednicki(m,n)}")
