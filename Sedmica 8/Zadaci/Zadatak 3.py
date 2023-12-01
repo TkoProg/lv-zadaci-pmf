@@ -13,4 +13,4 @@ def generisi_niz(a,b):
         print(lista)
 
 
-generisi_niz()
+generisi_niz(10, 100)
